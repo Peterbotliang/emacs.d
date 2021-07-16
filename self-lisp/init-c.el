@@ -1,3 +1,5 @@
+(require-package 'cuda-mode)
+
 (setq indent-tabs-mode nil)
 (setq default-tab-width 4)
 (setq tab-width 4)
@@ -50,5 +52,6 @@
 
 (add-hook 'c-mode-hook 'my-c-mode-common-hook)
 (add-hook 'c++-mode-hook 'my-c-mode-common-hook)
+(add-hook 'cuda-mode-hook 'my-c-mode-common-hook)
 
 (provide' init-c)

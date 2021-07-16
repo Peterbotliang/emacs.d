@@ -27,8 +27,8 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(matlab-mode-install-path (quote ("/home/mingchao/Software/matlab/toolbox")))
- '(matlab-shell-command "/home/mingchao/Software/matlab/bin/matlab"))
+ '(matlab-mode-install-path (quote ("/home/peterliang/Software/MATLAB/toolbox")))
+ '(matlab-shell-command "/home/peterliang/Software/MATLAB/bin/matlab"))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
